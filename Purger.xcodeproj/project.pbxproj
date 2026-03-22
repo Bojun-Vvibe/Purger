@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06687F85B410212414D9B756 /* QuickCleanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FA0928712C286C2ED26C4 /* QuickCleanView.swift */; };
+		0AE2B435124143588D212EBD /* LargeFilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC30EF75855F78E0331F5E2 /* LargeFilesViewModel.swift */; };
+		152D65284031D37A19FB2ED8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BCEC0BB99B5704777A2B11 /* SettingsView.swift */; };
+		21E214CCF7B2F462AF74C524 /* CleanCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B05C4BC296830C5272FA6 /* CleanCategory.swift */; };
+		35B8685A0F401FB704A3C8D7 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F25D124DF0F8169435FCA /* Formatters.swift */; };
+		4028634352840471231ECDC0 /* DuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419654CD660DFBE56C939391 /* DuplicatesView.swift */; };
+		4E0D62B16DE4C13FF639F0B6 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAEDC3996AF8D5F158E238 /* ScanResult.swift */; };
+		6369E92511526861838D5B52 /* SystemJunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790BA4DB857CE57D22B43082 /* SystemJunkView.swift */; };
+		6CCB7891998FAE50275F1A53 /* DiskScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D99507A63AAC0B1AA99410 /* DiskScannerService.swift */; };
+		6CF2187FCF4328198D5BCAEE /* StorageAnalyzerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D466DD72507FF594EB9737 /* StorageAnalyzerView.swift */; };
+		779BF406A36075A6E67CA78A /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C990EE930EAD0C393BA33 /* OverviewViewModel.swift */; };
+		891A5DA52B103D5B971AA9A7 /* CleanerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D72EE479AA731BC53DD06 /* CleanerService.swift */; };
+		906C90AD84D063F61396CBDC /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2227F2B50C46ADD0AF4F0 /* ToolsView.swift */; };
+		9A4277808094DA72C549C7CA /* ApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CCA864DA59F73C674570FB /* ApplicationsView.swift */; };
+		A14DE9D28C77344B9DCAA17A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62759B7A2C8BC748C5B7717A /* ContentView.swift */; };
+		AA1122334455667788990011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1122334455667788990022 /* Assets.xcassets */; };
+		D927A78977A608323B0E2DA8 /* SidebarTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6F596C1D1FF8F58AE2ED5 /* SidebarTab.swift */; };
+		F201454144C860AF5128BD66 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA5E9D71A4DD763E36191 /* OverviewView.swift */; };
+		F6F0D225FEEB898BE3E24DF6 /* PurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE8B055BEA7F40E842F731 /* PurgerApp.swift */; };
+		F7835A80A15C1456A6094BC1 /* LargeFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52890586BF05CF4F5835AA09 /* LargeFilesView.swift */; };
+		F810C4373C698FEA68609873 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D6916E9AA34F37C97C4EC0 /* AppState.swift */; };
+		FE6595A841B82900224A8871 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF68150A6FB60169423771A /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06B6F596C1D1FF8F58AE2ED5 /* SidebarTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTab.swift; sourceTree = "<group>"; };
+		29EE8B055BEA7F40E842F731 /* PurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurgerApp.swift; sourceTree = "<group>"; };
+		364B05C4BC296830C5272FA6 /* CleanCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCategory.swift; sourceTree = "<group>"; };
+		3CC30EF75855F78E0331F5E2 /* LargeFilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFilesViewModel.swift; sourceTree = "<group>"; };
+		419654CD660DFBE56C939391 /* DuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicatesView.swift; sourceTree = "<group>"; };
+		52890586BF05CF4F5835AA09 /* LargeFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFilesView.swift; sourceTree = "<group>"; };
+		62759B7A2C8BC748C5B7717A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E0AA5E9D71A4DD763E36191 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		73670B76C1AD61C9F1CA79B1 /* Purger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CCA864DA59F73C674570FB /* ApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsView.swift; sourceTree = "<group>"; };
+		790BA4DB857CE57D22B43082 /* SystemJunkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemJunkView.swift; sourceTree = "<group>"; };
+		81BCEC0BB99B5704777A2B11 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		876C990EE930EAD0C393BA33 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
+		8CF68150A6FB60169423771A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		92D6916E9AA34F37C97C4EC0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B06D72EE479AA731BC53DD06 /* CleanerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerService.swift; sourceTree = "<group>"; };
+		B47F25D124DF0F8169435FCA /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		BF4FA0928712C286C2ED26C4 /* QuickCleanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCleanView.swift; sourceTree = "<group>"; };
+		C6D466DD72507FF594EB9737 /* StorageAnalyzerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAnalyzerView.swift; sourceTree = "<group>"; };
+		CEFAEDC3996AF8D5F158E238 /* ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		AA1122334455667788990022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0729F33A934F3938D82EDE5 /* Purger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Purger.entitlements; sourceTree = "<group>"; };
+		F9D99507A63AAC0B1AA99410 /* DiskScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskScannerService.swift; sourceTree = "<group>"; };
+		FAF2227F2B50C46ADD0AF4F0 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		209F48F12DA30A5FA5AD45BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B47F25D124DF0F8169435FCA /* Formatters.swift */,
+				8CF68150A6FB60169423771A /* Theme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2687906F13B84CC0752C8B2C = {
+			isa = PBXGroup;
+			children = (
+				5662C2F5D5B983C8576925F7 /* Purger */,
+				4A5C87F29EE51EA53B8D8EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5C87F29EE51EA53B8D8EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73670B76C1AD61C9F1CA79B1 /* Purger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD3F50A918D53E990ADE10D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92D6916E9AA34F37C97C4EC0 /* AppState.swift */,
+				364B05C4BC296830C5272FA6 /* CleanCategory.swift */,
+				CEFAEDC3996AF8D5F158E238 /* ScanResult.swift */,
+				06B6F596C1D1FF8F58AE2ED5 /* SidebarTab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5662C2F5D5B983C8576925F7 /* Purger */ = {
+			isa = PBXGroup;
+			children = (
+				29EE8B055BEA7F40E842F731 /* PurgerApp.swift */,
+				4BD3F50A918D53E990ADE10D /* Models */,
+				7A288A7986CA27CA5D330057 /* Resources */,
+				D574B4C795422599E6D2B041 /* Services */,
+				209F48F12DA30A5FA5AD45BD /* Utils */,
+				CF28B8A60439B789982673AD /* ViewModels */,
+				91E19B5856619466A306916F /* Views */,
+			);
+			path = Purger;
+			sourceTree = "<group>";
+		};
+		7A288A7986CA27CA5D330057 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1122334455667788990022 /* Assets.xcassets */,
+				F0729F33A934F3938D82EDE5 /* Purger.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91E19B5856619466A306916F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75CCA864DA59F73C674570FB /* ApplicationsView.swift */,
+				62759B7A2C8BC748C5B7717A /* ContentView.swift */,
+				419654CD660DFBE56C939391 /* DuplicatesView.swift */,
+				52890586BF05CF4F5835AA09 /* LargeFilesView.swift */,
+				6E0AA5E9D71A4DD763E36191 /* OverviewView.swift */,
+				BF4FA0928712C286C2ED26C4 /* QuickCleanView.swift */,
+				81BCEC0BB99B5704777A2B11 /* SettingsView.swift */,
+				C6D466DD72507FF594EB9737 /* StorageAnalyzerView.swift */,
+				790BA4DB857CE57D22B43082 /* SystemJunkView.swift */,
+				FAF2227F2B50C46ADD0AF4F0 /* ToolsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF28B8A60439B789982673AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3CC30EF75855F78E0331F5E2 /* LargeFilesViewModel.swift */,
+				876C990EE930EAD0C393BA33 /* OverviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D574B4C795422599E6D2B041 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B06D72EE479AA731BC53DD06 /* CleanerService.swift */,
+				F9D99507A63AAC0B1AA99410 /* DiskScannerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7381BB7B03FC5A63B8B082 /* Purger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122112D40A8C295FEB09D708 /* Build configuration list for PBXNativeTarget "Purger" */;
+			buildPhases = (
+				BFFC733A71DD73A04F405FE4 /* Sources */,
+				AA1122334455667788990033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purger;
+			packageProductDependencies = (
+			);
+			productName = Purger;
+			productReference = 73670B76C1AD61C9F1CA79B1 /* Purger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2BE2B0814F25A59E84A8FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BB7381BB7B03FC5A63B8B082 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98F44442F7D27552B53E23AC /* Build configuration list for PBXProject "Purger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2687906F13B84CC0752C8B2C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4A5C87F29EE51EA53B8D8EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7381BB7B03FC5A63B8B082 /* Purger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFC733A71DD73A04F405FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F810C4373C698FEA68609873 /* AppState.swift in Sources */,
+				9A4277808094DA72C549C7CA /* ApplicationsView.swift in Sources */,
+				21E214CCF7B2F462AF74C524 /* CleanCategory.swift in Sources */,
+				F6F0D225FEEB898BE3E24DF6 /* PurgerApp.swift in Sources */,
+				891A5DA52B103D5B971AA9A7 /* CleanerService.swift in Sources */,
+				A14DE9D28C77344B9DCAA17A /* ContentView.swift in Sources */,
+				6CCB7891998FAE50275F1A53 /* DiskScannerService.swift in Sources */,
+				4028634352840471231ECDC0 /* DuplicatesView.swift in Sources */,
+				35B8685A0F401FB704A3C8D7 /* Formatters.swift in Sources */,
+				F7835A80A15C1456A6094BC1 /* LargeFilesView.swift in Sources */,
+				0AE2B435124143588D212EBD /* LargeFilesViewModel.swift in Sources */,
+				F201454144C860AF5128BD66 /* OverviewView.swift in Sources */,
+				779BF406A36075A6E67CA78A /* OverviewViewModel.swift in Sources */,
+				06687F85B410212414D9B756 /* QuickCleanView.swift in Sources */,
+				4E0D62B16DE4C13FF639F0B6 /* ScanResult.swift in Sources */,
+				152D65284031D37A19FB2ED8 /* SettingsView.swift in Sources */,
+				D927A78977A608323B0E2DA8 /* SidebarTab.swift in Sources */,
+				6CF2187FCF4328198D5BCAEE /* StorageAnalyzerView.swift in Sources */,
+				6369E92511526861838D5B52 /* SystemJunkView.swift in Sources */,
+				FE6595A841B82900224A8871 /* Theme.swift in Sources */,
+				906C90AD84D063F61396CBDC /* ToolsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1122334455667788990033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1122334455667788990011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		106E34D61F89CCAE4A00F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Purger/Resources/Purger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Purger;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Bojun. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojun.purger;
+				PRODUCT_NAME = Purger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		27B39A035DEAF2523054AA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A15AEBE69E74FF626EFCFE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Purger/Resources/Purger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Purger;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Bojun. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojun.purger;
+				PRODUCT_NAME = Purger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		E4E9BDAAFDFD5F87EF8632C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122112D40A8C295FEB09D708 /* Build configuration list for PBXNativeTarget "Purger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106E34D61F89CCAE4A00F1B0 /* Debug */,
+				A15AEBE69E74FF626EFCFE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98F44442F7D27552B53E23AC /* Build configuration list for PBXProject "Purger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E9BDAAFDFD5F87EF8632C9 /* Debug */,
+				27B39A035DEAF2523054AA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2BE2B0814F25A59E84A8FE /* Project object */;
+}
