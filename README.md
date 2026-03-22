@@ -33,7 +33,26 @@ One-click cleanup of system caches, logs, and temporary files. Scans common junk
 
 ## Screenshots
 
-> _Coming soon_
+### Deep Scan
+Analyze what's really using your disk space — developer tools, app data, caches, user content, and more, broken down by category with interactive size bars.
+
+<p align="center">
+  <img src="screenshots/deep-scan.jpg" width="800" alt="Deep Scan">
+</p>
+
+### Quick Clean
+One-click cleanup with full visibility. Expands each category (system cache, app cache, browser cache, logs, temp files, downloads, Xcode data) to show every item and its age before you clean.
+
+<p align="center">
+  <img src="screenshots/quick-clean.jpg" width="800" alt="Quick Clean">
+</p>
+
+### Tools — Applications
+Browse all installed apps sorted by data size. Inspect any app to see its bundle size, cache & data footprint, and exact disk locations — then clean with one click.
+
+<p align="center">
+  <img src="screenshots/tools.jpg" width="800" alt="Tools — Applications">
+</p>
 
 ## Requirements
 
