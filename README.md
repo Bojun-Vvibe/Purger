@@ -70,9 +70,21 @@ Browse all installed apps sorted by data size. Inspect any app to see its bundle
 ## Requirements
 
 - macOS 14.0 (Sonoma) or later
-- Xcode 16+ (to build from source)
 
-## Build
+## Installation
+
+### Option 1: Download Pre-built App (Recommended)
+
+1. Go to the [**Releases**](https://github.com/Bojun-Vvibe/Purger/releases/latest) page
+2. Download `Purger.zip`
+3. Unzip and drag `Purger.app` to your `/Applications` folder
+4. Launch from Launchpad, Spotlight (`⌘ + Space` → type "Purger"), or double-click in Finder
+
+> **Note:** On first launch, macOS may show a security warning since the app is not notarized. Go to **System Settings → Privacy & Security** and click **"Open Anyway"**.
+
+### Option 2: Build from Source
+
+Requires Xcode 16+.
 
 ```bash
 # Clone
@@ -80,9 +92,12 @@ git clone https://github.com/Bojun-Vvibe/Purger.git
 cd Purger
 
 # Build release
-xcodebuild -project Purger.xcodeproj -scheme Purger -configuration Release build
+xcodebuild -project Purger.xcodeproj -scheme Purger -configuration Release build -derivedDataPath ./build
 
-# The built app is in DerivedData — or just open Purger.xcodeproj in Xcode and hit ⌘R
+# Install to Applications
+cp -R ./build/Build/Products/Release/Purger.app /Applications/
+
+# Or just open Purger.xcodeproj in Xcode and hit ⌘R
 ```
 
 ## Project Structure
@@ -176,9 +191,21 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## 系统要求
 
 - macOS 14.0 (Sonoma) 或更高版本
-- Xcode 16+（从源码构建）
 
-## 构建
+## 安装
+
+### 方式一：直接下载（推荐）
+
+1. 前往 [**Releases 下载页**](https://github.com/Bojun-Vvibe/Purger/releases/latest)
+2. 下载 `Purger.zip`
+3. 解压后将 `Purger.app` 拖入 `/Applications`（应用程序）文件夹
+4. 从 Launchpad、Spotlight（`⌘ + Space` 输入 "Purger"）或 Finder 中打开即可
+
+> **提示：** 首次打开时 macOS 可能提示"无法验证开发者"，前往 **系统设置 → 隐私与安全性**，点击 **"仍要打开"** 即可。
+
+### 方式二：从源码编译
+
+需要 Xcode 16+。
 
 ```bash
 # 克隆仓库
@@ -186,7 +213,10 @@ git clone https://github.com/Bojun-Vvibe/Purger.git
 cd Purger
 
 # 构建 Release 版本
-xcodebuild -project Purger.xcodeproj -scheme Purger -configuration Release build
+xcodebuild -project Purger.xcodeproj -scheme Purger -configuration Release build -derivedDataPath ./build
+
+# 安装到应用程序文件夹
+cp -R ./build/Build/Products/Release/Purger.app /Applications/
 
 # 也可以直接用 Xcode 打开 Purger.xcodeproj，按 ⌘R 运行
 ```
