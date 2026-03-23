@@ -194,3 +194,7 @@ xcodebuild -project Purger.xcodeproj -scheme Purger -configuration Release build
 ## 开源协议
 
 MIT License，详见 [LICENSE](LICENSE)。
+
+---
+
+> **Version 1.0.0** — 2026-03-23
